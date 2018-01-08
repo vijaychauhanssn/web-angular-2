@@ -1,0 +1,51 @@
+<header class="s-{{section}}">
+  <div class="wrapper">
+    <a href="/home" class="logo"><img src="assets/img/logo.png"></a>
+    <nav [ngClass]="{'active': activeNav}">
+      <div class="button-wrap has-submenu">
+        <a class="color-white" href="membresias">Membresías</a>
+        <ul>
+          <li><a   [routerLink]="['membresias']" >Labs</a></li>
+          <li><a  [routerLink]="['membresias/labs']" >Flex</a></li>
+          <li><a routerLinkActive="active" href="membresias/desk">Desk</a></li>
+          <li><a routerLinkActive="active" href="membresias/office">Office</a></li>
+        </ul>
+      </div>
+      <div class="button-wrap has-submenu" >
+        <a class="color-white" href="comunidad">Comunidad</a>
+        <ul>
+          <li><a [ngClass]="{'active': subsection == 'eventos'}" href="eventos">Eventos</a></li>
+          <!-- <li><a [ngClass]="{'active': section == 'noticias'}" href="noticias">Noticias</a></li> -->
+          <li><a href="https://www.youtube.com/channel/UCD5gut_qkl6IlkIPpr027wg" target="_blank">Videos</a></li>
+          <li><a href="https://docs.google.com/document/d/1jU5pCH0Res3bihcw-72s2vX6hgnqgLoIh_Z4ArOZv00/edit" target="_blank">Beneficios</a></li>
+        </ul>
+      </div>
+      <div class="button-wrap has-submenu" >
+        <a class="color-white" href="sedes">Sedes</a>
+        <ul>
+          <li><a class="color-white" href="sedes/el-salvador">A3 El Salvador</a></li>
+          <li><a class="color-white" href="sedes/soho">A3 Soho</a></li>
+        </ul>
+      </div>
+      <div class="button-wrap has-submenu" >
+        <a class="color-white">Nosotros</a>
+        <ul>
+          <li><a class="color-white">A3</a></li>
+          <li><a class="color-white" href="google-for-entrepreneurs">Google for Entrepreneurs</a></li>
+          <!-- <li><a [ngClass]="{'active': section == 'porque-somos-el-hub'}" href="porque-somos-el-hub">Porque somos el HUB</a></li> -->
+          <!-- <li><a [ngClass]="{'active': section == 'faqs'}" href="faqs">FAQ</a>/</li> -->
+          <li><a class="color-white" href="hace-tu-evento">Hacé tu evento en A3</a></li>
+          <li><a class="color-white" href="contacto">Contacto</a></li>
+        </ul>
+      </div>
+      <div class="button-wrap">
+        <a class="color-white" href="#"><span>Miembros</span><span>Próximamente</span></a>
+      </div>
+    </nav>
+    <div class="toggle-nav" (click)="activeNav = !activeNav" [ngClass]="{'active': activeNav}" type="button" appMobileSidebarToggler>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+</header>

@@ -1,0 +1,294 @@
+[  
+   {  
+      "_id":"5a15a52cea9e617c83814401",
+      "updated_at":"2017-11-22T16:47:38.974Z",
+      "created_at":"2017-11-22T16:26:20.360Z",
+      "name":"World Usability Day Buenos Aires",
+      "date":"29/11/2017",
+      "url":"world-usability-day-buenos-aires",
+      "hour":"13:00 - 22:00",
+      "sede":"A3 El Salvador",
+      "lugar":"Subsuelo",
+      "gform":"https://events.withgoogle.com/world-usability-day-buenos-aires/registrations/new/details/#current-step",
+      "order":0,
+      "__v":0,
+      "published":true,
+      "items":[  
+         {  
+            "class":"texto",
+            "text":"<p dir=\"ltr\">Google Design y el equipo de Google Developers Experts te invitan al World Usability Day Buenos Aires organizado por Google Developers Experts.</p>\n\n<p dir=\"ltr\">Estaremos presentando a Googlers y expertos en dise&ntilde;o de todo el mundo para hablar de visual design, design sprints, interaction design, desarrollo de front end, user research y mucho m&aacute;s! El contenido ser&aacute; presentado en espa&ntilde;ol e ingl&eacute;s.</p>\n"
+         },
+         {  
+            "class":"imagen",
+            "text":"",
+            "url":"file-1511367943165.jpg"
+         },
+         {  
+            "class":"texto",
+            "text":"<p>Organizan:</p>\n"
+         },
+         {  
+            "class":"imagen",
+            "text":"",
+            "url":"file-1511367977570.png"
+         }
+      ]
+   },
+   {  
+      "_id":"5a15a611ea9e617c83814402",
+      "updated_at":"2017-11-22T17:10:03.238Z",
+      "created_at":"2017-11-22T16:30:09.174Z",
+      "name":"#Animalarte!",
+      "date":"25/11/2017",
+      "url":"-animalarte-",
+      "hour":"11:00 - 23:30",
+      "sede":"A3 El Salvador",
+      "lugar":"Subsuelo",
+      "gform":"https://www.eventbrite.com/e/entradas-animalarte-de-p4p-29059942069?aff=efbevent",
+      "order":1,
+      "__v":0,
+      "published":true,
+      "items":[  
+         {  
+            "class":"texto",
+            "text":"<p>Llega la segunda edici&oacute;n del evento que une el arte con el amor por los animales:&nbsp;<strong>#AnimalArte</strong>&nbsp;... y est&aacute;s invitado!!&nbsp;<strong>AnimalArte</strong>&nbsp;es un evento que organiza una vez al a&ntilde;o Proyecto 4 Patas para recaudar fondos y donde podr&aacute;s encontrar diversas expresiones art&iacute;sticas, con una caracter&iacute;stica &uacute;nica: todo el contenido es sobre animales.</p>\n\n<p>Incre&iacute;bles obras para ver y comprar!</p>\n\n<p>Ilustraci&oacute;n y fotografia,</p>\n\n<p>Intervenciones art&iacute;sticas colectivas</p>\n\n<p>Bandas en vivo y DJ!</p>\n\n<p>Proyecciones audiovisuales</p>\n\n<p>Mesa de lectura</p>\n\n<p>Artistas pl&aacute;sticos creando en vivo</p>\n\n<p>Feria de dise&ntilde;o de diferentes marcas y merchandising de P4P</p>\n\n<p>Gastronom&iacute;a veggie Y muchas sorpresas m&aacute;s que te van a encantar.</p>\n\n<p>Entrada a beneficio: $100.-&nbsp;<br />\n<br />\nNo pod&eacute;s faltar... te vas a divertir, y vas a estar colaborando para que miles de animales tengan una mejor calidad de vida.&nbsp;</p>\n"
+         },
+         {  
+            "class":"imagen",
+            "text":"",
+            "url":"file-1511368204719.jpg"
+         }
+      ]
+   },
+   {  
+      "_id":"5a15a771ea9e617c83814403",
+      "updated_at":"2017-11-22T17:56:43.328Z",
+      "created_at":"2017-11-22T16:36:01.185Z",
+      "name":"Buenos Aires Feria Internacional de Música (BAFIM) - Día 1",
+      "date":"25/11/2017",
+      "url":"buenos-aires-feria-internacional-de-m-sica--bafim----d-a-1",
+      "hour":"09:00 - 14:00",
+      "sede":"A3 El Salvador",
+      "lugar":"Subsuelo",
+      "gform":"http://bafim.mdebuenosaires.gob.ar/system/login.php?a=r&desarrollo=si",
+      "order":2,
+      "__v":0,
+      "published":true,
+      "items":[  
+         {  
+            "class":"texto",
+            "text":"<p>Su objetivo es mostrar la riqueza y diversidad musical de la Ciudad de Buenos Aires y conectarla con los programadores de festivales m&aacute;s destacados de la escena internacional.<br />\n<br />\nEn Buenos Aires Feria Internacional de M&uacute;sica podr&aacute;s generar relaciones comerciales y fortalecer v&iacute;nculos a trav&eacute;s de muestras de m&uacute;sica en vivo, rondas de negocio, networking y conferencias.</p>\n"
+         },
+         {  
+            "class":"imagen",
+            "text":"",
+            "url":"file-1511368523733.jpg"
+         }
+      ]
+   },
+   {  
+      "_id":"5a15a870ea9e617c83814404",
+      "updated_at":"2017-11-22T17:55:54.868Z",
+      "created_at":"2017-11-22T16:40:16.863Z",
+      "name":"Buenos Aires Feria Internacional de Música (BAFIM) - Día 2",
+      "date":"26/11/2017",
+      "url":"buenos-aires-feria-internacional-de-m-sica--bafim----d-a-2",
+      "hour":"09:00 - 14:00",
+      "sede":"A3 El Salvador",
+      "lugar":"Subsuelo",
+      "gform":"http://bafim.mdebuenosaires.gob.ar/system/login.php?a=r&desarrollo=si",
+      "order":3,
+      "__v":0,
+      "published":true,
+      "items":[  
+         {  
+            "class":"texto",
+            "text":"<p>Su objetivo es mostrar la riqueza y diversidad musical de la Ciudad de Buenos Aires y conectarla con los programadores de festivales m&aacute;s destacados de la escena internacional.<br />\n<br />\nEn Buenos Aires Feria Internacional de M&uacute;sica podr&aacute;s generar relaciones comerciales y fortalecer v&iacute;nculos a trav&eacute;s de muestras de m&uacute;sica en vivo, rondas de negocio, networking y conferencias.</p>\n"
+         },
+         {  
+            "class":"imagen",
+            "text":"",
+            "url":"file-1511368736246.jpg"
+         }
+      ]
+   },
+   {  
+      "_id":"5a15a957ea9e617c83814405",
+      "updated_at":"2017-11-22T16:48:17.299Z",
+      "created_at":"2017-11-22T16:44:07.554Z",
+      "name":"Creative Mornings - Death",
+      "date":"24/11/2017",
+      "url":"creative-mornings---death",
+      "hour":"08:30 - 10:30",
+      "sede":"A3 El Salvador",
+      "lugar":"Living",
+      "gform":"https://creativemornings.com/talks/martin-cirio/",
+      "order":4,
+      "__v":0,
+      "published":true,
+      "items":[  
+         {  
+            "class":"texto",
+            "text":"<p>Hace ya m&aacute;s de 7 a&ntilde;os,&nbsp;<strong>Mart&iacute;n Cirio (a.k.a. la Faraona)</strong>&nbsp;hace humor a trav&eacute;s de cuanta plataforma digital se le cruce.</p>\n\n<p>Leyendo un diario &iacute;ntimo de su adolescencia o relatando sus experiencias sexuales m&aacute;s particulares, Mart&iacute;n supo capitalizar un p&uacute;blico fiel que lo sigue en sus aventuras por todo el mundo.</p>\n\n<p>Sus videos m&aacute;s vistos son sus Gu&iacute;as Tur&iacute;sticas de destinos como Cairo, Mosc&uacute;, Londres, San Antonio de Areco o Parque Patricios, y el ya conocido Consultorio de la Faraona, donde da consejos muy personales e &iacute;ntimos a sus farafans.</p>\n"
+         },
+         {  
+            "class":"imagen",
+            "text":"",
+            "url":"file-1511369030097.png"
+         }
+      ]
+   },
+   {  
+      "_id":"5a15aa20f35f9424f5206a52",
+      "updated_at":"2017-11-22T16:48:24.780Z",
+      "created_at":"2017-11-22T16:47:28.606Z",
+      "name":"#EmprenderSePuede",
+      "date":"21/11/2017",
+      "url":"-emprendersepuede",
+      "hour":"15:00 - 22:00",
+      "sede":"A3 El Salvador",
+      "lugar":"Subsuelo",
+      "gform":"https://www.eventbrite.com.ar/e/emprendersepuede-tickets-39185314330?err=29#",
+      "order":5,
+      "__v":0,
+      "published":true,
+      "items":[  
+         {  
+            "class":"texto",
+            "text":"<p><strong>Emprender Se Puede</strong>&nbsp;resume en una frase el GEN de ASEA, una Asociaci&oacute;n de emprendedores que busca que el camino emprendedor sea m&aacute;s f&aacute;cil para los que est&aacute;n y los que vienen. Es el espacio de encuentro para toda la comunidad de ASEA e interesados en emprendedorismo.</p>\n\n<p>Durante el mismo, compartiremos talleres para que m&aacute;s emprendedores puedan mejorar sus emprendimientos, prototipos e ideas, as&iacute; como tambi&eacute;n inspiraci&oacute;n a trav&eacute;s de charlas de m&uacute;ltiples referentes del ecosistema emprendedor y otros rubros.</p>\n\n<p>Desde ASEA te damos la bienvenida y esperamos que hagas tuya, la casa de todos los emprendedores donde a trav&eacute;s de contenidos, talleres, acompa&ntilde;amiento y conocer a otros emprendedores como vos, puedas decir con nosotros &gt;&nbsp;<strong>Emprender, Se Puede (y vale la pena).</strong></p>\n"
+         },
+         {  
+            "class":"imagen",
+            "text":"",
+            "url":"file-1511369243713.png"
+         }
+      ]
+   },
+   {  
+      "_id":"5a26b3bca00af4512797f12d",
+      "updated_at":"2017-12-05T16:31:57.055Z",
+      "created_at":"2017-12-05T14:57:00.661Z",
+      "name":"Chivas The Venture",
+      "date":"06/12/2017",
+      "url":"chivas-the-venture",
+      "hour":"18:00 - 23:00",
+      "sede":"A3 El Salvador",
+      "gform":"invitados@plan.agency ",
+      "order":6,
+      "__v":0,
+      "lugar":"El Salvador 5218 - CABA",
+      "published":true,
+      "items":[  
+         {  
+            "class":"texto",
+            "text":"<p><a href=\"https://www.facebook.com/Chivas-The-Venture-908553699245702/?ref=gs&amp;fref=gs&amp;dti=866399470091606&amp;hc_location=group\" id=\"js_qe\">Chivas The Venture</a>&nbsp;es un concurso anual que premia con un mill&oacute;n de dolares a aquellos startups que utilizan sus ideas para mejorar la vida de los dem&aacute;s.</p>\n\n<p>El 6 de Diciembre las 18h en Areatres se celebra la final regional, un&nbsp;evento &uacute;nico.</p>\n\n<p>&iexcl;Reserva tu lugar v&iacute;a mail!&nbsp;invitados@plan.agency&nbsp;</p>\n\n<p>&nbsp;</p>\n"
+         },
+         {  
+            "class":"imagen",
+            "text":"",
+            "url":"file-1512485716773.jpg"
+         }
+      ]
+   },
+   {  
+      "_id":"5a26b7bfa00af4512797f12e",
+      "updated_at":"2017-12-11T13:43:10.280Z",
+      "created_at":"2017-12-05T15:14:07.623Z",
+      "name":"ASEA - Desayuno de nuevos miembros",
+      "date":"12/12/2017",
+      "url":"asea---desayuno-de-nuevos-miembros",
+      "hour":"08:30 - 11:00",
+      "sede":"A3 El Salvador",
+      "lugar":"El Salvador 5218 - CABA",
+      "order":7,
+      "__v":0,
+      "gform":"https://www.eventbrite.com.ar/e/asea-desayuno-de-nuevos-miembros-tickets-41052579370",
+      "published":true,
+      "items":[  
+         {  
+            "class":"texto",
+            "text":"<p><a href=\"https://mailtrack.io/trace/link/b58b3066e1f6c384056abb5c925bd5e3515b8b9f?url=https%3A%2F%2Fwww.facebook.com%2Fasea.arg%2F%3Fref%3Dgs%26fref%3Dgs%26dti%3D866399470091606%26hc_location%3Dgroup&amp;userId=699687&amp;signature=f216c5db1cd8bc8e\" target=\"_blank\">ASEA - Asociaci&oacute;n de Emprendedores de Argentina</a>, los invita&nbsp;a acompa&ntilde;arnos en el &uacute;ltimo desayuno de miembros del a&ntilde;o de ASEA, para que puedan conocer otros emprendedores y encontrar futuros socios, proveedores, clientes y mucho m&aacute;s. Es totalmente gratuito,&nbsp;&nbsp;no te lo podes perder.</p>\n\n<p>El Martes 12 de diciembre 08:30 ven&iacute; a conocer a emprendedores como vos.</p>\n\n<p>Evento con registro previo.</p>\n\n<p>&nbsp;</p>\n"
+         },
+         {  
+            "class":"imagen",
+            "text":"",
+            "url":"file-1512999771102.png"
+         }
+      ]
+   },
+   {  
+      "_id":"5a26baa6a00af4512797f12f",
+      "updated_at":"2017-12-05T15:38:55.041Z",
+      "created_at":"2017-12-05T15:26:30.484Z",
+      "name":"Creative Mornings",
+      "url":"creative-mornings",
+      "order":8,
+      "__v":0,
+      "lugar":"El Salvador 5218 - CABA",
+      "sede":"A3 El Salvador",
+      "hour":"08:30 - 10:30",
+      "date":"14/12/2017",
+      "published":true,
+      "items":[  
+         {  
+            "class":"texto",
+            "text":"<p><span style=\"font-size:14px\"><a href=\"https://creativemornings.com/cities/bue\">CreativeMornings</a> es una serie global de conferencias para profesionales creativos.</span></p>\n\n<p><span style=\"font-size:14px\">Mes a mes nos traen un invitado especial, relacionado con la creatividad.</span></p>\n\n<p><span style=\"font-size:14px\">Proimamente estar&aacute; disponible el link de inscripci&oacute;n.</span></p>\n\n<p>&nbsp;</p>\n"
+         },
+         {  
+            "class":"imagen",
+            "text":"",
+            "url":"file-1512487583487.png"
+         }
+      ]
+   },
+   {  
+      "_id":"5a26bd2aa00af4512797f130",
+      "updated_at":"2017-12-05T16:33:23.896Z",
+      "created_at":"2017-12-05T15:37:14.767Z",
+      "name":"Awaken Love",
+      "date":"06/12/2017",
+      "url":"awaken-love",
+      "hour":"09:00",
+      "sede":"A3 El Salvador",
+      "lugar":"El Salvador 5218 - CABA",
+      "order":9,
+      "__v":0,
+      "published":true,
+      "items":[  
+         {  
+            "class":"texto",
+            "text":"<p><a href=\"http://www.awakenlove.global/\">Awaken Love</a>. En el marco de las conferencias publicas y de la visita a Argentina del l&iacute;der humanitario&nbsp;<strong>Sri Prem Baba</strong>, celebramos este&nbsp;<strong>encuentro &iacute;ntimo</strong>&nbsp;junto a&nbsp;referentes de la&nbsp;<em>sustentabilidad</em>, a quienes consideramos multiplicadores y promotores del desarrollo sustentable.</p>\n\n<p><strong>EVENTO EXCLUSIVO MIEMBROS @AREATRES</strong></p>\n"
+         },
+         {  
+            "class":"imagen",
+            "text":"",
+            "url":"file-1512488229779.jpg"
+         }
+      ]
+   },
+   {  
+      "_id":"5a26bea8a00af4512797f131",
+      "updated_at":"2017-12-05T16:33:45.730Z",
+      "created_at":"2017-12-05T15:43:36.222Z",
+      "name":"Metodo DeRose",
+      "date":"06/12/2017",
+      "url":"metodo-derose",
+      "hour":"09:00 - 09:30",
+      "sede":"A3 El Salvador",
+      "lugar":"El Salvador 5218 - CABA",
+      "order":10,
+      "__v":0,
+      "published":true,
+      "items":[  
+         {  
+            "class":"texto",
+            "text":"<p>Junto&nbsp;<a href=\"https://www.facebook.com/derosebelgrano/?ref=gs&amp;fref=gs&amp;dti=866399470091606&amp;hc_location=group\">Sede Belgrano M&eacute;todo DeRose</a>&nbsp;arrancamos un ciclo de actividades relacionadas a calidad de vida y alto rendimiento, pensadas para emprendedores.</p>\n\n<p>Todos los Mi&eacute;rcoles a las 09:00h</p>\n\n<p><strong>EVENTO EXCLUSIVO MIEMBROS @AREATRES</strong></p>\n"
+         },
+         {  
+            "class":"imagen",
+            "text":"",
+            "url":"file-1512488611865.png"
+         }
+      ]
+   }
+]

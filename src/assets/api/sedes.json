@@ -1,0 +1,98 @@
+[  
+   {  
+      "_id":"59d3408354b2ff30378fa06a",
+      "updated_at":"2017-11-22T05:48:51.484Z",
+      "created_at":"2017-10-03T07:47:15.981Z",
+      "name":"Soho",
+      "title":"El HUB del ecosistema emprendedor.",
+      "image":"file-1510676786286.jpg",
+      "order":0,
+      "__v":0,
+      "gform":"http://www.google.com",
+      "ubicacion":"Malabia 1720, Palermo, Buenos Aires Argentina.",
+      "long":"-58.425941",
+      "lat":"-34.5896201",
+      "published":true,
+      "numeros":[  
+         {  
+            "label":"Superficie",
+            "num":"500",
+            "unidad":"m²"
+         },
+         {  
+            "label":"Horario",
+            "num":"8:30 a 20",
+            "unidad":"hs"
+         },
+         {  
+            "label":"Apertura ",
+            "num":"2009",
+            "unidad":""
+         },
+         {  
+            "label":"Empresas",
+            "num":"20",
+            "unidad":""
+         },
+         {  
+            "label":"Coworkers",
+            "num":"90",
+            "unidad":""
+         }
+      ],
+      "slide":[  
+         "file-1510676800151.jpg",
+         "file-1510676808041.jpg",
+         "file-1510676814296.jpg"
+      ]
+   },
+   {  
+      "_id":"59d8c957169c3642b6cf3152",
+      "updated_at":"2017-12-17T01:31:57.043Z",
+      "created_at":"2017-10-07T12:32:23.154Z",
+      "name":"El Salvador",
+      "title":"El HUB del ecosistema emprendedor.",
+      "image":"file-1510676842592.jpg",
+      "lat":"-34.586057",
+      "long":"-58.432034",
+      "ubicacion":"El Salvador 5218, Palermo, Buenos Aires Argentina.",
+      "gform":"http://google.com",
+      "order":1,
+      "__v":0,
+      "published":true,
+      "numeros":[  
+         {  
+            "label":"Superficie",
+            "num":"4600",
+            "unidad":"m²"
+         },
+         {  
+            "label":"Abierto",
+            "num":"24",
+            "unidad":"x7"
+         },
+         {  
+            "label":"Conexión",
+            "num":"300",
+            "unidad":"mb"
+         },
+         {  
+            "label":"Empresas",
+            "num":"70",
+            "unidad":""
+         },
+         {  
+            "label":"Coworkers",
+            "num":"350",
+            "unidad":""
+         }
+      ],
+      "slide":[  
+         "file-1510676859475.jpg",
+         "file-1510676867571.jpg",
+         "file-1510676875672.jpg",
+         "file-1510676882515.jpg",
+         "file-1513474293458.JPG"
+      ]
+   }
+]

@@ -1,0 +1,68 @@
+[  
+   {  
+      "_id":"59d8d52ed20e496d43386e7c",
+      "updated_at":"2017-10-30T20:20:52.558Z",
+      "created_at":"2017-10-07T13:22:54.082Z",
+      "name":"Comunidad A3",
+      "image":"file-1507382561410.png",
+      "text":"Somos una comunidad formada con las mejores startups, grandes empresas y profesionales asociados a la innovación y el emprendedurismo.",
+      "order":0,
+      "__v":0,
+      "published":true
+   },
+   {  
+      "_id":"59d8d53fd20e496d43386e7d",
+      "updated_at":"2017-10-30T20:20:52.560Z",
+      "created_at":"2017-10-07T13:23:11.475Z",
+      "name":"Alianzas y Partners",
+      "image":"file-1507382589007.png",
+      "text":"Creamos alianzas para potenciar a los emprendedores de Argentina y a los partners de A3.",
+      "order":1,
+      "__v":0,
+      "published":true
+   },
+   {  
+      "_id":"59d8d54cd20e496d43386e7e",
+      "updated_at":"2017-10-30T20:20:52.574Z",
+      "created_at":"2017-10-07T13:23:24.063Z",
+      "name":"Eventos",
+      "image":"file-1507382601355.png",
+      "text":"Hosteamos los eventos más novedosos y valiosos para los miembros de la Comunidad A3 y el mundo emprendedor.",
+      "order":2,
+      "__v":0,
+      "published":true
+   },
+   {  
+      "_id":"59d8d559d20e496d43386e7f",
+      "updated_at":"2017-10-30T20:20:52.576Z",
+      "created_at":"2017-10-07T13:23:37.748Z",
+      "name":"Beneficios y Descuentos",
+      "image":"file-1507382616138.png",
+      "text":"Una red de más de 50 descuentos en herramientas de trabajo, gastronomía, deporte y acceso a más de 650 coworkings en el mundo a través de nuestras alianzas.",
+      "order":3,
+      "__v":0,
+      "published":true
+   },
+   {  
+      "_id":"59d8d568d20e496d43386e80",
+      "updated_at":"2017-10-30T20:20:52.581Z",
+      "created_at":"2017-10-07T13:23:52.702Z",
+      "name":"Nuestros espacios",
+      "image":"file-1507382630997.png",
+      "text":"Somos la opción de coworking preferida por profesionales independientes, tech startups, PyME's y multinacionales que buscan espacios de trabajo de nivel y modernos.",
+      "order":4,
+      "__v":0,
+      "published":true
+   },
+   {  
+      "_id":"59d8d57cd20e496d43386e81",
+      "updated_at":"2017-11-24T17:09:25.099Z",
+      "created_at":"2017-10-07T13:24:12.918Z",
+      "name":"Sinergia y Serendipia",
+      "image":"file-1507382651409.png",
+      "text":"Nos enfocamos en acelerar la serendipia que puede haber entre los miembros y en aprovechar la sinergia aprovechar la sinergia entre miembros, y entre éstos y partners",
+      "order":5,
+      "__v":0,
+      "published":true
+   }
+]
