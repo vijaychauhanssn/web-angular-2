@@ -1,0 +1,132 @@
+<!-- carousel>
+  <slide>
+    <img src="assets/img/sliders/1.jpg" alt="First slide" style="display: block; width: 100%;">
+  </slide>
+  <slide>
+    <img src="assets/img/sliders/2.jpg" alt="Second slide" style="display: block; width: 100%;">
+  </slide>
+  <slide>
+    <img src="assets/img/sliders/3.jpg" alt="Third slide" style="display: block; width: 100%;">
+  </slide>
+</carousel-->
+
+
+
+<main id="nosotros" class="interna membresia-detail">
+
+  <div id="c1" class="circle circle-1 show-me"><img class="enter-y delay-5" src="assets/img/circle-1.png"></div>
+
+  <div class="wrapper show-me" id="n1">
+    <h4 class="enter-x-r">Membresía {{membresias[2].name}}</h4>
+  </div>
+  <div id="slide-pics" class="show-me">
+    <div class="wrapper wrapper-big">
+    <carousel>
+      <slide  class="slide-home enter-y" *ngFor = "let s of slides"> 
+       <img src="assets/img/sliders/{{s.slide[0]}}" alt="First slide">
+       </slide>
+    </carousel>
+    </div>
+  </div>
+  <div class="wrapper show-me" id="n3">
+
+    <div id="servicios">
+      <div class="text">
+        <h3>{{membresias[2].title}}</h3>
+      </div>
+      <div class="servicios">
+        <strong>Servicios incluidos</strong>
+        <ul>
+          <!-- div *ngFor="let hero of heroes; trackBy: trackByHeroes">
+            ({{hero.id}}) {{hero.name}}
+          </div-->
+          <li *ngFor ="let s of lists">
+          {{s.list[0]}}
+          </li>
+        </ul>
+        <div class="prices">
+          <div>
+            <h6>Sede <br>A3 Soho</h6>
+            <div class="price">
+              <span>Desde</span>
+              <strong>{{membresias[2].soho.from}}</strong>
+              <p>{{membresias[2].soho.aclaracion}}</p>
+            </div>
+          </div>
+          <div >
+            <h6>Sede <br>A3 El Salvador</h6>
+            <div class="price">
+              <span>Desde</span>
+              <strong>{{membresias[2].salvador.from}}</strong>
+              <p>{{membresias[2].salvador.aclaracion}}</p>
+            </div>
+          </div>
+        </div>
+        <a href="{{membresias[2].gform}}" target="_blank" class="button">
+          <img src="assets/img/button-arrow.png">
+          <span>Quiero ser miembro</span>
+        </a>
+      </div>
+    </div>
+  </div>
+
+<div id="membresias" class="show-me wrapper wrapper-big" >
+      <div class="wrapper">
+        <h3 class="enter-x-r">Membresías</h3>
+      </div>
+      <div class="wp">
+        <a href="membresias/{{urlEncode(membresias[0].name)}}" class="column enter-y delay-1">
+          <div class="bg"  [ngStyle]="{background:' url(assets/uploads/' + membresias[0].image + ')'}" ></div>
+          <div class="text">
+            <h4>{{membresias[0].name}}</h4>
+            <small>{{membresias[0].desde}}</small>
+            <div class="button-wrap">
+              <div class="button green">
+                <img src="assets/img/button-arrow.png">
+                <span>Ver más</span>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="membresias/{{urlEncode(membresias[1].name)}}" class="column enter-y delay-2">
+          <div class="bg" [ngStyle]="{background:' url(assets/uploads/' + membresias[1].image + ')'}"></div>
+          <div class="text">
+            <h4>{{membresias[1].name}}</h4>
+            <small>{{membresias[1].desde}}</small>
+            <div class="button-wrap">
+              <div class="button green">
+                <img src="assets/img/button-arrow.png">
+                <span>Ver más</span>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="membresias/{{urlEncode(membresias[2].name)}}" class="column enter-y delay-3">
+          <div class="bg"  [ngStyle]="{background:' url(assets/uploads/' + membresias[2].image + ')'}"></div>
+          <div class="text">
+            <h4>{{membresias[2].name}}</h4>
+            <small>{{membresias[2].desde}}</small>
+            <div class="button-wrap">
+              <div class="button green">
+                <img src="assets/img/button-arrow.png">
+                <span>Ver más</span>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="membresias/{{urlEncode(membresias[3].name)}}" class="column enter-y delay-4">
+          <div class="bg"  [ngStyle]="{background:' url(assets/uploads/' + membresias[3].image + ')'}"></div>
+          <div class="text">
+            <h4>{{membresias[3].name}}</h4>
+            <small>{{membresias[3].desde}}</small>
+            <div class="button-wrap">
+              <div class="button green">
+                <img src="assets/img/button-arrow.png">
+                <span>Ver más</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>    
+</main>

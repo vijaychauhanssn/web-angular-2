@@ -1,0 +1,54 @@
+
+<div id="eventos" class="interna">
+
+	<!-- <div id="c1" class="circle circle-1 show-me"><img class="enter-y delay-5" src="img/circle-1.png"></div> -->
+
+	<div id="e1" class="wrapper show-me">
+		<h4 class="enter-x-r">Eventos</h4>
+
+		<div class="eventos-list enter-y delay-1">
+			<div *ngIf="!showAll">
+				<div class="date">{{dateToShow}}</div>
+				<div class="list">
+					<div class="event" *ngFor="e in eventos | filterEventos:filterDate | orderBy:'dateOrder'" *ngIf="(eventos | filterEventos:filterDate).length > 0">
+						<small><strong>{{e.sede}}</strong> · {{e.hour}}</small>
+						<h4>{{e.name}}</h4>
+						<p>{{e.text}} <a href="eventos/{{e.url}}">Ver más</a></p>
+					</div>
+					<div class="event" *ngIf="(eventos | filterEventos:filterDate).length == 0">
+						<p>No hay eventos para la fecha seleccionada.</p>
+					</div>
+				</div>
+			</div>
+			<div *ngIf="showAll">
+				<div *ngFor="e in eventos | orderBy:'dateOrder'">
+					<div class="date">{{e.fecha}}</div>
+					<div class="list">
+						<div class="event">
+							<small><strong>{{e.sede}}</strong> · {{e.hour}}</small>
+							<h4>{{e.name}}</h4>
+							<p>{{e.text}} <a href="eventos/{{e.url}}">Ver más</a></p>
+						</div>
+					</div>
+					<br>
+				</div>
+			</div>
+		</div>
+
+		<div class="calendar enter-y delay-2">
+			<simple-calendar events="events" options="calendarOptions"></simple-calendar>
+			<span (click)="showAll = true" id="ver-todos-e">Ver todos</span>
+			<a href="hace-tu-evento" class="button" style="margin-top: 30px; float: right;">
+				<img src="img/button-arrow.png">
+				<span>Hacé tu evento</span>
+			</a>
+		</div>
+
+		<style>
+		#ver-todos-e {display: block; text-align: center; margin-top: -34px; color: #ed495c; font-size: 13px; cursor: pointer; margin-bottom: 20px; transition: all .3s;}
+		#ver-todos-e:hover {opacity: .7;}
+		</style>
+
+	</div>
+
+</div>

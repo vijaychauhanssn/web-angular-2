@@ -1,0 +1,90 @@
+  <div class="bg-1">
+    <div id="membresias" class="show-me wrapper wrapper-big" style="padding-top: 200px; z-index: 2;">
+      <div class="wrapper">
+        <h3 class="enter-x-r">Membresías</h3>
+      </div>
+      <div class="wp">
+        <a href="membresias/{{urlEncode(membresias[0].name)}}" class="column enter-y delay-1">
+          <div class="bg"  [ngStyle]="{background:' url(assets/uploads/' + membresias[0].image + ')'}" ></div>
+          <div class="text">
+            <h4>{{membresias[0].name}}</h4>
+            <small>{{membresias[0].desde}}</small>
+            <div class="button-wrap">
+              <div class="button green">
+                <img src="assets/img/button-arrow.png">
+                <span>Ver más</span>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="membresias/{{urlEncode(membresias[1].name)}}" class="column enter-y delay-2">
+          <div class="bg" [ngStyle]="{background:' url(assets/uploads/' + membresias[1].image + ')'}"></div>
+          <div class="text">
+            <h4>{{membresias[1].name}}</h4>
+            <small>{{membresias[1].desde}}</small>
+            <div class="button-wrap">
+              <div class="button green">
+                <img src="assets/img/button-arrow.png">
+                <span>Ver más</span>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="membresias/{{urlEncode(membresias[2].name)}}" class="column enter-y delay-3">
+          <div class="bg"  [ngStyle]="{background:' url(assets/uploads/' + membresias[2].image + ')'}"></div>
+          <div class="text">
+            <h4>{{membresias[2].name}}</h4>
+            <small>{{membresias[2].desde}}</small>
+            <div class="button-wrap">
+              <div class="button green">
+                <img src="assets/img/button-arrow.png">
+                <span>Ver más</span>
+              </div>
+            </div>
+          </div>
+        </a>
+        <a href="membresias/{{urlEncode(membresias[3].name)}}" class="column enter-y delay-4">
+          <div class="bg"  [ngStyle]="{background:' url(assets/uploads/' + membresias[3].image + ')'}"></div>
+          <div class="text">
+            <h4>{{membresias[3].name}}</h4>
+            <small>{{membresias[3].desde}}</small>
+            <div class="button-wrap">
+              <div class="button green">
+                <img src="assets/img/button-arrow.png">
+                <span>Ver más</span>
+              </div>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+
+  <div id="c1" class="circle circle-1 show-me">
+    <img class="enter-y delay-5" src="assets/img/circle-1.png">
+  </div>
+   <div id="caracteristicas" class="show-me wrapper wrapper-big">
+      <div class="wrapper">
+        <h3 class="enter-x-r">El lugar donde las cosas pasan</h3>
+      </div>
+      <div class="wp">
+        <div class="column enter-y delay-{{i+1}}" *ngFor="let u of events; let i = index">
+          <div class="thumb">
+            <img src="assets/uploads/{{u.image}}">
+            <h4>{{u.name}}</h4>
+          </div>
+          <div class="info">
+            <img src="assets/uploads/{{u.image}}">
+            <h4>{{u.name}}</h4>
+            <p>{{u.text}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="gfe3" class="show-me" style="padding-bottom: 150px">
+      <h4 class="enter-x-r">#PartnersA3</h4>
+      <h3 class="enter-x delay-1">que potencian tus ideas</h3>
+      <img src="assets/img/gfe3.jpg" class="enter-y delay-2">
+    </div>
+
+  </div>

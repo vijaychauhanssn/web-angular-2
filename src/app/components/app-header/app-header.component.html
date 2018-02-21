@@ -1,20 +1,20 @@
-<header class="s-{{section}}">
+<header class="app-header navbar">
   <div class="wrapper">
     <a href="/home" class="logo"><img src="assets/img/logo.png"></a>
     <nav [ngClass]="{'active': activeNav}">
       <div class="button-wrap has-submenu">
-        <a class="color-white" href="membresias">Membresías</a>
+        <a class="color-white"    routerLinkActive="active" [routerLink]="['/membresia']">Membresías</a>
         <ul>
-          <li><a   [routerLink]="['membresias']" >Labs</a></li>
-          <li><a  [routerLink]="['membresias/labs']" >Flex</a></li>
-          <li><a routerLinkActive="active" href="membresias/desk">Desk</a></li>
-          <li><a routerLinkActive="active" href="membresias/office">Office</a></li>
+          <li><a  routerLinkActive="active" [routerLink]="['/membresias/labs']">Labs</a></li>
+          <li><a  routerLinkActive="active" [routerLink]="['/membresias/flex']">Flex</a></li>
+          <li><a routerLinkActive="active" [routerLink]="['/membresias/desk']"  >Desk</a></li>
+          <li><a routerLinkActive="active" [routerLink]="['/membresias/office']" >Office</a></li>
         </ul>
       </div>
       <div class="button-wrap has-submenu" >
-        <a class="color-white" href="comunidad">Comunidad</a>
+        <a class="color-white"  routerLinkActive="active" [routerLink]="['/comunidad']">Comunidad</a>
         <ul>
-          <li><a [ngClass]="{'active': subsection == 'eventos'}" href="eventos">Eventos</a></li>
+          <li><a [ngClass]="{'active': subsection == 'eventos'}" routerLinkActive="active" [routerLink]="['/eventos']">Eventos</a></li>
           <!-- <li><a [ngClass]="{'active': section == 'noticias'}" href="noticias">Noticias</a></li> -->
           <li><a href="https://www.youtube.com/channel/UCD5gut_qkl6IlkIPpr027wg" target="_blank">Videos</a></li>
           <li><a href="https://docs.google.com/document/d/1jU5pCH0Res3bihcw-72s2vX6hgnqgLoIh_Z4ArOZv00/edit" target="_blank">Beneficios</a></li>
@@ -35,7 +35,7 @@
           <!-- <li><a [ngClass]="{'active': section == 'porque-somos-el-hub'}" href="porque-somos-el-hub">Porque somos el HUB</a></li> -->
           <!-- <li><a [ngClass]="{'active': section == 'faqs'}" href="faqs">FAQ</a>/</li> -->
           <li><a class="color-white" href="hace-tu-evento">Hacé tu evento en A3</a></li>
-          <li><a class="color-white" href="contacto">Contacto</a></li>
+          <li><a class="color-white" routerLinkActive="active" [routerLink]="['/contacto']">Contacto</a></li>
         </ul>
       </div>
       <div class="button-wrap">

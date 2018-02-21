@@ -1,0 +1,51 @@
+
+<div id="contacto" class="interna">
+	<div id="c1" class="circle circle-1 show-me"><img class="enter-y delay-5" src="assets/img/circle-1.png"></div>
+	<div class="wrapper">
+		<div id="form" class="show-me">
+			<h4 class="enter-x-r">Contactate con nosotros</h4>
+			<form class="enter-y delay-1" (ngSubmit)="onSubmit(f)" #f="ngForm" ngNativeValidate>
+				<input type="text" name="nombre" placeholder="Nombre" ngModel="" required="">
+				<input type="text" name="apellido" placeholder="Apellido" ngModel="" required="">
+				<input type="email" name="email" placeholder="E-mail"  ngModel="" required="">
+				<input type="text" name="number" placeholder="Teléfono" ngModel="" required="">
+				<input type="text" name="consulta" placeholder="Mensaje" ngModel="" required="">
+				<br>
+				<br>
+				<br>
+				<!-- p style="color: #e1296b; margin-bottom: 30px;" *ngIf="message">{{message}}</p-->
+				<div class="button">
+					<input type="submit" value="">
+					<img src="assets/img/button-arrow.png">
+					<span>Enviar</span>
+				</div>
+				 <!-- button type="submit" class="btn btn-success" [disabled]="!contactForm.form.valid">Submit</button-->
+			</form>
+			<div class="social enter-x delay-2">
+				<h5>¡Seguinos!</h5>
+				<a href="https://www.facebook.com/vijaychauhanssn" target="_blank"><i class="fa fa-facebook"></i> Facebook</a>
+				<a href="https://twitter.com/vijaychauhanssn" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+				<a href="https://www.instagram.com/vijaychauhanssn/" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
+				<a href="https://www.youtube.com/channel/vijaychauhanssn" target="_blank"><i class="fa fa-youtube-play"></i> YouTube</a>
+			</div>
+		</div>
+	</div>
+	<div id="social" class="show-me">
+		<div class="enter-y">
+			<i class="fa fa-twitter"></i>
+			<div class="text">
+				<h6>{{tweet}}</h6>
+				<small>{{tweetTime}}</small>
+			</div>
+			<a href="https://twitter.com/areatres" target="_blank"></a>
+		</div>
+		<div class="enter-y delay-1"  [ngStyle]="{background:' url(' + instagram.image + ')'}">
+			<i class="fa fa-instagram"></i>
+			 <div class="text">
+				<p>{{instagram.text}}</p>
+				<small>{{instagram.date}}</small>
+			</div> 
+			<a href="{{instagram.link}}" target="_blank"></a>
+		</div>
+	</div>
+</div>

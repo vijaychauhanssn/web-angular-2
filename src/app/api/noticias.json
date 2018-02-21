@@ -1,0 +1,94 @@
+[  
+   {  
+      "_id":"59d8cb8a169c3642b6cf3153",
+      "updated_at":"2017-10-18T18:09:13.155Z",
+      "created_at":"2017-10-07T12:41:46.444Z",
+      "date":"3 de Octubre de 2017",
+      "title":"Google for entrepreneurs",
+      "image":"file-1507379985899.jpg",
+      "order":0,
+      "__v":0,
+      "url":"google-for-entrepreneurs",
+      "items":[  
+         {  
+            "class":"texto",
+            "text":"<p><strong>Take a meeting in Shanghai, in</strong>terview a customer in Mexico City, or pitch an investor in San Francisco. Through Google for Entrepreneurs Passport, you can work flexibly from over 40 partners&rsquo; spaces around the world, including all Campus locations. Talk to an EC staff member to learn more.</p>\n\n<p>The <a href=\"http://www.google.com\" target=\"_blank\">Google for Entrepreneurs Partner Network</a> is a global community of best-in-class startup organizations. It exists as both a refuge and a resource for the trailblazers working to grow entrepreneurial ecosystems around the world. Whether it&rsquo;s swapping learnings, sharing office space, or facilitating introductions, the members of our Partner Network are teaming up to help startups succeed. We hope you&rsquo;ll join us.</p>\n\n<p>GCP for Startups is designed to help early-stage tech companies build and scale on Google Cloud Platform. We want to surround your net-new investments and existing portfolio companies with the resources and support necessary to build on Google&rsquo;s infrastructure and accelerate their growth.</p>\n",
+            "_id":"59d8cb8a169c3642b6cf3156"
+         },
+         {  
+            "class":"bajada",
+            "text":"As a GFE Tech Hub Partner, we are able to nominate elegible startups for the spark package.",
+            "_id":"59d8cb8a169c3642b6cf3155"
+         },
+         {  
+            "class":"imagen",
+            "text":"",
+            "url":"file-1507380091991.jpg",
+            "_id":"59d8cb8a169c3642b6cf3154"
+         }
+      ],
+      "published":true
+   },
+   {  
+      "_id":"59d8d34dd20e496d43386e78",
+      "updated_at":"2017-10-07T13:18:49.108Z",
+      "created_at":"2017-10-07T13:14:53.156Z",
+      "date":"4 de Octubre de 2017",
+      "title":"Nueva nota test",
+      "url":"nueva-nota-test",
+      "order":1,
+      "__v":0,
+      "image":"file-1507380168195.jpg",
+      "items":[  
+         {  
+            "class":"texto",
+            "text":"<p>Take a meeting in Shanghai, interview a customer in Mexico City, or pitch an investor in San Francisco. Through Google for Entrepreneurs Passport, you can work flexibly from over 40 partners&rsquo; spaces around the world, including all Campus locations. Talk to an EC staff member to learn more.</p>\n\n<p>The Google for Entrepreneurs Partner Network is a global community of best-in-class startup organizations. It exists as both a refuge and a resource for the trailblazers working to grow entrepreneurial ecosystems around the world. Whether it&rsquo;s swapping learnings, sharing office space, or facilitating introductions, the members of our Partner Network are teaming up to help startups succeed. We hope you&rsquo;ll join us.</p>\n\n<p>GCP for Startups is designed to help early-stage tech companies build and scale on Google Cloud Platform. We want to surround your net-new investments and existing portfolio companies with the resources and support necessary to build on Google&rsquo;s infrastructure and accelerate their growth.</p>\n",
+            "_id":"59d8cc1f169c3642b6cf315a"
+         },
+         {  
+            "class":"bajada",
+            "text":"Test bajada 2",
+            "url":"file-1507380202158.jpg",
+            "_id":"59d8cc1f169c3642b6cf3159"
+         },
+         {  
+            "class":"imagen",
+            "text":"",
+            "url":"file-1507380240595.jpg",
+            "_id":"59d8cc1f169c3642b6cf3158"
+         }
+      ],
+      "published":true
+   },
+   {  
+      "_id":"59d8d4cfd20e496d43386e7b",
+      "updated_at":"2017-10-07T13:21:19.894Z",
+      "created_at":"2017-10-07T13:21:19.894Z",
+      "date":"5 de Octubre de 2017",
+      "title":"¿Cómo es A3 El Salvador, el nuevo espacio de coworking?",
+      "url":"nuevo-espacio-coworking-a3-el-salvador",
+      "image":"file-1507380168195.jpg",
+      "order":2,
+      "__v":0,
+      "items":[  
+         {  
+            "class":"texto",
+            "text":"<p>Take a meeting in Shanghai, interview a customer in Mexico City, or pitch an investor in San Francisco. Through Google for Entrepreneurs Passport, you can work flexibly from over 40 partners&rsquo; spaces around the world, including all Campus locations. Talk to an EC staff member to learn more.</p>\n\n<p>The Google for Entrepreneurs Partner Network is a global community of best-in-class startup organizations. It exists as both a refuge and a resource for the trailblazers working to grow entrepreneurial ecosystems around the world. Whether it&rsquo;s swapping learnings, sharing office space, or facilitating introductions, the members of our Partner Network are teaming up to help startups succeed. We hope you&rsquo;ll join us.</p>\n\n<p>GCP for Startups is designed to help early-stage tech companies build and scale on Google Cloud Platform. We want to surround your net-new investments and existing portfolio companies with the resources and support necessary to build on Google&rsquo;s infrastructure and accelerate their growth.</p>\n",
+            "_id":"59d8cc1f169c3642b6cf315a"
+         },
+         {  
+            "class":"bajada",
+            "text":"Test bajada 2",
+            "url":"file-1507380202158.jpg",
+            "_id":"59d8cc1f169c3642b6cf3159"
+         },
+         {  
+            "class":"imagen",
+            "text":"",
+            "url":"file-1507380240595.jpg",
+            "_id":"59d8cc1f169c3642b6cf3158"
+         }
+      ],
+      "published":true
+   }
+]

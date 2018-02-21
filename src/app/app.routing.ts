@@ -1,30 +1,55 @@
 import { NgModule }   from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { AppHeaderComponent } from './components/app-header/index';
-import { HomeComponent } from './view/home/index';
-import { MembresiasComponent } from './view/membresias/index';
-import { LabsComponent } from './view/membresias/labs/index';
+// Import Containers
+import {  FullLayout, SimpleLayout } from './containers';
 
-const appRoutes: Routes = [
-    { 
-    path: '',
-    redirectTo: '/home',
-    pathMatch: 'full'
+export const routes: Routes = [
+  { 
+  path: '',
+  redirectTo: 'home',
+  pathMatch: 'full',
+  },
+  {
+   path: '',
+    component: FullLayout,
+    data: {
+      title: 'Home'
     },
-    { 
-    path: 'app-header',
-    component: AppHeaderComponent
-    },
-    { 
-    path: 'app-header',
-    component: MembresiasComponent
-    },
-    { 
-    path: 'app-header',
-    component: LabsComponent
-    },
-
+    children: [
+      {
+        path: 'membresias',
+        loadChildren: './views/membresias/membresias.module#MembresiasModule'
+      },
+      {
+        path: 'dashboard',
+        loadChildren: './views/dashboard/dashboard.module#DashboardModule'
+      },
+      {
+        path: 'home',
+        loadChildren: './views/home/home.module#HomeModule'
+      },
+      {
+        path: 'comunidad',
+        loadChildren: './views/comunidad/comunidad.module#ComunidadModule'
+      },
+      {
+        path: 'membresia',
+        loadChildren: './views/membresia/membresia.module#MembresiaModule'
+      },
+      {
+        path: 'contacto',
+        loadChildren: './views/contacto/contacto.module#ContactoModule'
+      },
+      {
+        path: 'eventos',
+        loadChildren: './views/eventos/eventos.module#EventosModule'
+      }
+    ]
+  }
 ];
 
-
-export const routing = RouterModule.forRoot(appRoutes);
+@NgModule({
+  imports: [ RouterModule.forRoot(routes) ],
+  exports: [ RouterModule ]
+})
+export class AppRoutingModule {}

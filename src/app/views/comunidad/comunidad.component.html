@@ -1,0 +1,66 @@
+	<div class="bg-1">
+		<div id="comunidad" class="show-me wrapper wrapper-big" style="padding-top: 200px; z-index: 2;">
+			<div class="wrapper">
+				<h3 class="enter-x-r">Lo que pasa en la</h3>
+				<h4 class="enter-x-r delay-1">#ComunidadA3</h4>
+			</div>
+			<div class="wp">
+				<div class="column enter-y delay-1">
+					<h5>Eventos</h5>
+					<a  [routerLink]="['/eventos']"   class="event-thumb" *ngFor="let e of eventos">
+						<div class="date">
+							<small>{{getMonth(e.date)}}</small>
+							<strong>{{getDay(e.date)}}</strong>
+						</div>
+						<div class="detail">
+							<small>{{e.name}}</small>
+							<p>{{e.hour}}</p>
+							<p>{{e.sede}}</p>
+						</div>
+					</a>
+					<a href="eventos" class="button red">
+						<img src="assets/img/button-arrow.png">
+						<span>Ver más</span>
+					</a>
+				</div>
+				<div class="column enter-y delay-2" [ngStyle]="{background:' url(assets/img/' + youtube[0].image + ')'}">
+					<h5>Videos</h5>
+					<h6>{{youtube[0].title}}</h6>
+					<img src="assets/img/play.png" class="play">
+					<img src="assets/img/yt.png" class="yt">
+					<a href="{{youtube[0].link}}" target="_blank"></a>
+				</div>
+				<div class="column enter-y delay-3">
+					<h5>Beneficios</h5>
+					<img src="assets/img/beneficios.jpg">
+					<a href="https://docs.google.com/document/d/1jU5pCH0Res3bihcw-72s2vX6hgnqgLoIh_Z4ArOZv00/edit" class="button orange">
+						<img src="assets/img/button-arrow.png">
+						<span>Ver más</span>
+					</a>
+				</div>
+			</div>
+		</div>
+		<div id="c1" class="circle circle-1 show-me"><img class="enter-y delay-5" src="assets/img/circle-1.png"></div>
+		<div id="caracteristicas" class="show-me wrapper wrapper-big">
+			<div class="wrapper">
+				<h3 class="enter-x-r">El lugar donde las cosas pasan</h3>
+			</div>
+			<div class="wp">
+				<div class="column enter-y delay-{{i+1}}" *ngFor="let u of events; let i = index">
+					<div class="thumb">
+						<img src="assets/uploads/{{u.image}}">
+						<h4>{{u.name}}</h4>
+					</div>
+					<div class="info">
+						<img src="assets/uploads/{{u.image}}">
+						<h4>{{u.name}}</h4>
+						<p>{{u.text}}</p>
+					</div>
+				</div>
+			</div>
+		<div id="gfe3" class="show-me" style="padding-bottom: 150px">
+			<h4 class="enter-x-r">#PartnersA3</h4>
+			<h3 class="enter-x delay-1">que potencian tus ideas</h3>
+			<img src="assets/img/gfe3.jpg" class="enter-y delay-2">
+		</div>
+	</div>

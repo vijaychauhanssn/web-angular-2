@@ -1,0 +1,19 @@
+<carousel>
+  <slide  id="hero-0" class="slide-home" *ngFor="let s of slides" >
+    <div class="background-slide slick-slide slick-slider" [style.background]="'url(assets/img/sliders/'+ s.slide[0] +')'" >
+          <div class="wrapper">
+            <div class="text">
+              <img src="assets/img/gfe.png" class="enter-y delay-2"  *ngIf="s.logo">
+              <h2 class="enter-y delay-3" *ngIf="s.title">{{s.title}}</h2>
+              <div class="enter-y delay-4" *ngIf="s.slide">
+                <a href="{{s.link}}" class="button" target="_blank">
+                  <img src="assets/img/button-arrow.png">
+                  <span>{{s.boton}}</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+  </slide>
+</carousel>
