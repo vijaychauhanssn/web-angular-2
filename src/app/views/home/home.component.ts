@@ -2,20 +2,48 @@ import { Component, OnInit } from '@angular/core';
 import { Event } from '../../model/event';
 import { Eventos } from '../../model/eventos';
 import { Youtube } from '../../model/youtube';
+import { Data }    from '../../models/data';
+import { Injectable } from '@angular/core';
+import { Http, Response } from '@angular/http';
+import 'rxjs/add/operator/map';
+import { HttpClient } from '@angular/common/http';
+
+@Injectable()
 
 @Component({
 templateUrl: 'home.component.html'
 })
 export class HomeComponent implements OnInit {
- urlEncode = function(l){
+
+ instagram: [{
+ link:any,
+ date:string,
+ text:any,
+ image:string
+ }]
+
+urlEncode = function(l){
     if(l)
       return l.toLowerCase().split(' ').join('-');
     else
       return '';
   }
- // constructor() { }
+  constructor(private http: Http) { }
 
-  ngOnInit() {
+ ngOnInit(): void {
+    this.http.get('https://api.instagram.com/v1/users/self/media/recent/?access_token=1555426027.1677ed0.2a7ad672ca3d45f38782bfc0ca9a8851', {jsonpCallbackParam: 'callbackParam', jsonp: 'jsonp'}).subscribe(data => {
+    console.log(data);
+    var post = data.data[0];
+      var options = {weekday: 'long', month: 'long', day: 'numeric' };
+      console.log(post);
+      this.instagram = {
+        image: post.images.standard_resolution.url,
+        link: post.link,
+        date: new Date(post.created_time * 1000).toLocaleDateString("es-ES", options),
+        text: post.caption.text
+      }
+      console.log(data);
+    });
   }
 
   getMonth = function(d){
@@ -44,34 +72,34 @@ export class HomeComponent implements OnInit {
 
   events: any[] = [
     {
-      "name": "Comunidad A3",
+      "name": "DISCUSSION BOARD",
        "image":"1.png",
-      "text":"Somos una comunidad formada con las mejores startups, grandes empresas y profesionales asociados a la innovación y el emprendedurismo."
+      "text":"Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
     },
     {
       "name": "Partnerships and Partners",
       "image":"2.png",
-      "text":"Creamos alianzas para potenciar a los emprendedores de Argentina y a los partners de A3."
+      "text":"Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
     },
     {
       "name": "Events",
       "image":"3.png",
-      "text":"Hosteamos los eventos más novedosos y valiosos para los miembros de la Comunidad A3 y el mundo emprendedor."
+      "text":"Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
     },
     {
       "name": "Benefits and Discounts",
       "image":"4.png",
-      "text":"Una red de más de 50 descuentos en herramientas de trabajo, gastronomía, deporte y acceso a más de 650 coworkings en el mundo a través de nuestras alianzas."
+      "text":"Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
     },
      {
       "name": "Our spaces",
       "image":"5.png",
-      "text":"Somos la opción de coworking preferida por profesionales independientes, tech startups, PyME's y multinacionales que buscan espacios de trabajo de nivel y modernos."
+      "text":"Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
     },
     {
       "name": "Synergy and Serendipity",
       "image":"6.png",
-      "text":"Nos enfocamos en acelerar la serendipia que puede haber entre los miembros y en aprovechar la sinergia aprovechar la sinergia entre miembros, y entre éstos y partners"
+      "text":"Lorem ipsum dolor sit amet, consectetur adipis cing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam."
     }
   ];
 
@@ -149,6 +177,5 @@ export class HomeComponent implements OnInit {
       "published":true
    }
  ];
-
-   
+  
 }

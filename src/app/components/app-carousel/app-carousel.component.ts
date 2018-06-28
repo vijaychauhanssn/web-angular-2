@@ -27,11 +27,11 @@ export class AppCarousel implements OnInit {
 	   "name":"slide1",
       "logo":false,
       "link":"https://docs.google.com/forms/d/e/1FAIpQLSc_E7396zYdXQKIuT19okSGKtoy6HfyrItUPmmEyTanzk5hmA/viewform",
-      "boton":"Quiero ser miembro",
-      "title":"El HUB del ecosistema emprendedor.",
+      "boton":"Read Details",
+      "title":"The 5th International Business Conference",
       "published":true,
       "slide":[  
-         "1.jpg"
+         "bg-1.jpg"
       ]
   	},
   	{
@@ -39,36 +39,36 @@ export class AppCarousel implements OnInit {
 	  "image":"2.jpg",
 	 "name":"slide2",
       "link":"https://docs.google.com/forms/d/e/1FAIpQLSc_E7396zYdXQKIuT19okSGKtoy6HfyrItUPmmEyTanzk5hmA/viewform",
-      "boton":"Quiero ser miembro",
-      "title":"Una comunidad de alta calidad y contenidos innovadores.",
+      "boton":"Read Details",
+      "title":"The 5th International Business Conference",
       "published":true,
       "slide":[  
-         "2.jpg"
+         "bg-2.jpg"
       ]
   	},
   	{
   	 "id":"3",
 	  "image":"3.jpg",
 	  "name":"slide3",
-      "title":"Conectando a nuestros miembros con contenidos de nuestros partners.",
-      "boton":"Quiero ser miembro",
+      "title":"The 5th International Business Conference",
+      "boton":"Read Details",
       "link":"https://docs.google.com/forms/d/e/1FAIpQLSc_E7396zYdXQKIuT19okSGKtoy6HfyrItUPmmEyTanzk5hmA/viewform",
       "published":true,
       "slide":[  
-         "3.jpg"
+         "bg-3.jpg"
       ]
   	},
   	{
   	 "id":"4",
 	  "image":"4.jpg",
 	  "name":"slide4",
-      "title":"Orgulloso Partner de Google for Entrepeneurs",
-      "boton":"Quiero ser miembro",
+      "title":"The 5th International Business Conference",
+      "boton":"Read Details",
       "link":"https://docs.google.com/forms/d/e/1FAIpQLSc_E7396zYdXQKIuT19okSGKtoy6HfyrItUPmmEyTanzk5hmA/viewform",
       "logo":true,
       "published":true,
       "slide":[  
-         "4.jpg"
+         "bg-4.jpg"
       ]
   	}	
  	 

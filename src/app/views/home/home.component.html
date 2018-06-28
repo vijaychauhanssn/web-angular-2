@@ -1,20 +1,9 @@
  <div class="bg-1">
 <app-carousel></app-carousel>
-<!--carousel>
-  <slide>
-    <img src="assets/img/sliders/1.jpg" alt="First slide" style="display: block; width: 100%;">
-  </slide>
-  <slide>
-    <img src="assets/img/sliders/2.jpg" alt="Second slide" style="display: block; width: 100%;">
-  </slide>
-  <slide>
-    <img src="assets/img/sliders/3.jpg" alt="Third slide" style="display: block; width: 100%;">
-  </slide>
-</carousel-->
   <div id="c1" class="circle circle-1 show-me"><img class="enter-y delay-5" src="assets/img/circle-1.png"></div>
 		<div id="caracteristicas" class="show-me wrapper wrapper-big">
 			<div class="wrapper">
-				<h3 class="enter-x-r">El lugar donde las cosas pasan</h3>
+				<h3 class="enter-x-r">Welcome to EVENTIESTS</h3>
 			</div>
 			<div class="wp">
 				<div class="column enter-y delay-{{i+1}}" *ngFor="let u of events; let i = index">
@@ -91,13 +80,11 @@
     </div>
 		<div id="c2" class="circle circle-2 show-me"><img class="enter-x-r delay-3" src="assets/img/circle-2.png"></div>
 </div>
-
-<div id="sedes" class="show-me">
+  <div id="sedes" class="show-me">
 		<div class="wrapper wrapper-big">
 			<div class="text">
 				<h4 class="enter-x-r" >Sedes A3</h4>
 				<h3 class="enter-x-r delay-1" >Nuestros espacios para que trabajes en tu mundo.</h3>
-				<!-- <p class="enter-x-r delay-2" >Ingresa y descubrí nuestros espacios con recorridos 360° interactivos.</p> -->
 			</div>
 			<div class="sedes enter-y delay-2">
 				<a [routerLink]="['/sedes']" style="background-image: url(assets/uploads/5.jpg)" [ngClass]="{'active': sedeActive == 1 || !sedeActive}" ng-mouseenter="sedeActive = 1">
@@ -186,16 +173,16 @@
 					<h6>{{tweet}}</h6>
 					<small>{{tweetTime}}</small>
 				</div>
-				<a  href="https://twitter.com/areatres" target="_blank"></a>
+				<a  href="https://twitter.com/vijaychauhanssn" target="_blank"></a>
 			</div>
-			<div class="enter-y delay-1" style="background-image: url(assets/img/5.jpg)">
-				<i class="fa fa-instagram"></i>
-				<!-- <div class="text">
-					<p>{{vm.instagram.text}}</p>
-					<small>{{vm.instagram.date}}</small>
-				</div> -->
-				<a [routerLink]="['/eventos']"  target="_blank"></a>
-			</div>
+			<div class="enter-y delay-1"    [ngStyle]="{'background-image':' url(' + instagram?.image + ')'}">
+			<i class="fa fa-instagram"></i>
+			 <div class="text">
+				<p>{{instagram?.text}}</p>
+				<small>{{instagram?.date}}</small>
+			</div> 
+			<a href="{{instagram?.link}}" target="_blank"></a>
+		</div>
 		</div>
 		<div id="example1" style="display: none !important"></div>
 		<div id="gfe3" class="show-me">

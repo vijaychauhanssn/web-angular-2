@@ -40,18 +40,15 @@ import {  FullLayout, SimpleLayout } from './containers';
     HttpModule,
     HttpClientModule
   ],
- 
- 
   providers: [
   TwitterService,
   HttpClientModule,
   HttpModule,
   Http,
   {
-      provide: LocationStrategy,
-      useClass: HashLocationStrategy
-  }
-  ],
+  provide: LocationStrategy,
+  useClass: HashLocationStrategy
+  }],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

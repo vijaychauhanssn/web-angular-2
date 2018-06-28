@@ -3,7 +3,7 @@
     <a href="/home" class="logo"><img src="assets/img/logo.png"></a>
     <nav [ngClass]="{'active': activeNav}">
       <div class="button-wrap has-submenu">
-        <a class="color-white"    routerLinkActive="active" [routerLink]="['/membresia']">Membresías</a>
+        <a class="color-white"    routerLinkActive="active" [routerLink]="['/membresia']">Home</a>
         <ul>
           <li><a  routerLinkActive="active" [routerLink]="['/membresias/labs']">Labs</a></li>
           <li><a  routerLinkActive="active" [routerLink]="['/membresias/flex']">Flex</a></li>
@@ -12,7 +12,7 @@
         </ul>
       </div>
       <div class="button-wrap has-submenu" >
-        <a class="color-white"  routerLinkActive="active" [routerLink]="['/comunidad']">Comunidad</a>
+        <a class="color-white"  routerLinkActive="active" [routerLink]="['/comunidad']">About</a>
         <ul>
           <li><a [ngClass]="{'active': subsection == 'eventos'}" routerLinkActive="active" [routerLink]="['/eventos']">Eventos</a></li>
           <!-- <li><a [ngClass]="{'active': section == 'noticias'}" href="noticias">Noticias</a></li> -->
@@ -21,25 +21,23 @@
         </ul>
       </div>
       <div class="button-wrap has-submenu" >
-        <a class="color-white" href="sedes">Sedes</a>
+        <a class="color-white" href="sedes">Events</a>
         <ul>
-          <li><a class="color-white" href="sedes/el-salvador">A3 El Salvador</a></li>
-          <li><a class="color-white" href="sedes/soho">A3 Soho</a></li>
+          <li><a class="color-white" href="sedes/el-salvador">Program</a></li>
+          <li><a class="color-white" href="sedes/soho">Surya Soho</a></li>
         </ul>
       </div>
       <div class="button-wrap has-submenu" >
-        <a class="color-white">Nosotros</a>
+        <a class="color-white" href="sedes">Contact</a>
         <ul>
-          <li><a class="color-white">A3</a></li>
+          <li><a class="color-white">Surya</a></li>
           <li><a class="color-white" href="google-for-entrepreneurs">Google for Entrepreneurs</a></li>
-          <!-- <li><a [ngClass]="{'active': section == 'porque-somos-el-hub'}" href="porque-somos-el-hub">Porque somos el HUB</a></li> -->
-          <!-- <li><a [ngClass]="{'active': section == 'faqs'}" href="faqs">FAQ</a>/</li> -->
-          <li><a class="color-white" href="hace-tu-evento">Hacé tu evento en A3</a></li>
+          <li><a class="color-white" href="hace-tu-evento">Hacé tu evento en Surya</a></li>
           <li><a class="color-white" routerLinkActive="active" [routerLink]="['/contacto']">Contacto</a></li>
         </ul>
       </div>
       <div class="button-wrap">
-        <a class="color-white" href="#"><span>Miembros</span><span>Próximamente</span></a>
+        <a class="color-white" href="#"><span>Members</span><span>Próximamente</span></a>
       </div>
     </nav>
     <div class="toggle-nav" (click)="activeNav = !activeNav" [ngClass]="{'active': activeNav}" type="button" appMobileSidebarToggler>

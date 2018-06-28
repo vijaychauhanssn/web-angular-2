@@ -8,6 +8,10 @@ var map = {
 		"../../../../../src/app/views/comunidad/comunidad.module.ts",
 		"comunidad.module"
 	],
+	"./views/contacto/contacto.module": [
+		"../../../../../src/app/views/contacto/contacto.module.ts",
+		"contacto.module"
+	],
 	"./views/dashboard/dashboard.module": [
 		"../../../../../src/app/views/dashboard/dashboard.module.ts",
 		"dashboard.module"
@@ -114,16 +118,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 
 
 
-// import { FooterComponent } from './components/footer/footer.component';
-// import { HomeComponent } from './views/home/home.component';
-// Import components
 
 // Import containers
 
-// import { MembresiaComponent } from './views/membresia/membresia.component';
-//import { EventosComponent } from './views/eventos/eventos.component';
-// import { ComunidadComponent } from './views/comunidad/comunidad.component';
-// import { AppCarouselComponent } from './components/app-carousel/app-carousel.component';
 var AppModule = (function () {
     function AppModule() {
     }
@@ -223,6 +220,10 @@ var routes = [
             {
                 path: 'membresia',
                 loadChildren: './views/membresia/membresia.module#MembresiaModule'
+            },
+            {
+                path: 'contacto',
+                loadChildren: './views/contacto/contacto.module#ContactoModule'
             },
             {
                 path: 'eventos',
@@ -350,11 +351,11 @@ var AppCarousel = (function () {
                 "name": "slide1",
                 "logo": false,
                 "link": "https://docs.google.com/forms/d/e/1FAIpQLSc_E7396zYdXQKIuT19okSGKtoy6HfyrItUPmmEyTanzk5hmA/viewform",
-                "boton": "Quiero ser miembro",
-                "title": "El HUB del ecosistema emprendedor.",
+                "boton": "Read Details",
+                "title": "The 5th International Business Conference",
                 "published": true,
                 "slide": [
-                    "1.jpg"
+                    "bg-1.jpg"
                 ]
             },
             {
@@ -362,36 +363,36 @@ var AppCarousel = (function () {
                 "image": "2.jpg",
                 "name": "slide2",
                 "link": "https://docs.google.com/forms/d/e/1FAIpQLSc_E7396zYdXQKIuT19okSGKtoy6HfyrItUPmmEyTanzk5hmA/viewform",
-                "boton": "Quiero ser miembro",
-                "title": "Una comunidad de alta calidad y contenidos innovadores.",
+                "boton": "Read Details",
+                "title": "The 5th International Business Conference",
                 "published": true,
                 "slide": [
-                    "2.jpg"
+                    "bg-2.jpg"
                 ]
             },
             {
                 "id": "3",
                 "image": "3.jpg",
                 "name": "slide3",
-                "title": "Conectando a nuestros miembros con contenidos de nuestros partners.",
-                "boton": "Quiero ser miembro",
+                "title": "The 5th International Business Conference",
+                "boton": "Read Details",
                 "link": "https://docs.google.com/forms/d/e/1FAIpQLSc_E7396zYdXQKIuT19okSGKtoy6HfyrItUPmmEyTanzk5hmA/viewform",
                 "published": true,
                 "slide": [
-                    "3.jpg"
+                    "bg-3.jpg"
                 ]
             },
             {
                 "id": "4",
                 "image": "4.jpg",
                 "name": "slide4",
-                "title": "Orgulloso Partner de Google for Entrepeneurs",
-                "boton": "Quiero ser miembro",
+                "title": "The 5th International Business Conference",
+                "boton": "Read Details",
                 "link": "https://docs.google.com/forms/d/e/1FAIpQLSc_E7396zYdXQKIuT19okSGKtoy6HfyrItUPmmEyTanzk5hmA/viewform",
                 "logo": true,
                 "published": true,
                 "slide": [
-                    "4.jpg"
+                    "bg-4.jpg"
                 ]
             }
         ];
@@ -496,7 +497,7 @@ var AppFooter = (function () {
 /***/ "../../../../../src/app/components/app-header/app-header.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<header class=\"app-header navbar\">\n  <div class=\"wrapper\">\n    <a href=\"/home\" class=\"logo\"><img src=\"assets/img/logo.png\"></a>\n    <nav [ngClass]=\"{'active': activeNav}\">\n      <div class=\"button-wrap has-submenu\">\n        <a class=\"color-white\"    routerLinkActive=\"active\" [routerLink]=\"['/membresia']\">Membresías</a>\n        <ul>\n          <li><a  routerLinkActive=\"active\" [routerLink]=\"['/membresias/labs']\">Labs</a></li>\n          <li><a  routerLinkActive=\"active\" [routerLink]=\"['/membresias/flex']\">Flex</a></li>\n          <li><a routerLinkActive=\"active\" [routerLink]=\"['/membresias/desk']\"  >Desk</a></li>\n          <li><a routerLinkActive=\"active\" [routerLink]=\"['/membresias/office']\" >Office</a></li>\n        </ul>\n      </div>\n      <div class=\"button-wrap has-submenu\" >\n        <a class=\"color-white\"  routerLinkActive=\"active\" [routerLink]=\"['/comunidad']\">Comunidad</a>\n        <ul>\n          <li><a [ngClass]=\"{'active': subsection == 'eventos'}\" routerLinkActive=\"active\" [routerLink]=\"['/eventos']\">Eventos</a></li>\n          <!-- <li><a [ngClass]=\"{'active': section == 'noticias'}\" href=\"noticias\">Noticias</a></li> -->\n          <li><a href=\"https://www.youtube.com/channel/UCD5gut_qkl6IlkIPpr027wg\" target=\"_blank\">Videos</a></li>\n          <li><a href=\"https://docs.google.com/document/d/1jU5pCH0Res3bihcw-72s2vX6hgnqgLoIh_Z4ArOZv00/edit\" target=\"_blank\">Beneficios</a></li>\n        </ul>\n      </div>\n      <div class=\"button-wrap has-submenu\" >\n        <a class=\"color-white\" href=\"sedes\">Sedes</a>\n        <ul>\n          <li><a class=\"color-white\" href=\"sedes/el-salvador\">A3 El Salvador</a></li>\n          <li><a class=\"color-white\" href=\"sedes/soho\">A3 Soho</a></li>\n        </ul>\n      </div>\n      <div class=\"button-wrap has-submenu\" >\n        <a class=\"color-white\">Nosotros</a>\n        <ul>\n          <li><a class=\"color-white\">A3</a></li>\n          <li><a class=\"color-white\" href=\"google-for-entrepreneurs\">Google for Entrepreneurs</a></li>\n          <!-- <li><a [ngClass]=\"{'active': section == 'porque-somos-el-hub'}\" href=\"porque-somos-el-hub\">Porque somos el HUB</a></li> -->\n          <!-- <li><a [ngClass]=\"{'active': section == 'faqs'}\" href=\"faqs\">FAQ</a>/</li> -->\n          <li><a class=\"color-white\" href=\"hace-tu-evento\">Hacé tu evento en A3</a></li>\n          <li><a class=\"color-white\" href=\"contacto\">Contacto</a></li>\n        </ul>\n      </div>\n      <div class=\"button-wrap\">\n        <a class=\"color-white\" href=\"#\"><span>Miembros</span><span>Próximamente</span></a>\n      </div>\n    </nav>\n    <div class=\"toggle-nav\" (click)=\"activeNav = !activeNav\" [ngClass]=\"{'active': activeNav}\" type=\"button\" appMobileSidebarToggler>\n      <span></span>\n      <span></span>\n      <span></span>\n    </div>\n  </div>\n</header>\n"
+module.exports = "<header class=\"app-header navbar\">\n  <div class=\"wrapper\">\n    <a href=\"/home\" class=\"logo\"><img src=\"assets/img/logo.png\"></a>\n    <nav [ngClass]=\"{'active': activeNav}\">\n      <div class=\"button-wrap has-submenu\">\n        <a class=\"color-white\"    routerLinkActive=\"active\" [routerLink]=\"['/membresia']\">Home</a>\n        <ul>\n          <li><a  routerLinkActive=\"active\" [routerLink]=\"['/membresias/labs']\">Labs</a></li>\n          <li><a  routerLinkActive=\"active\" [routerLink]=\"['/membresias/flex']\">Flex</a></li>\n          <li><a routerLinkActive=\"active\" [routerLink]=\"['/membresias/desk']\"  >Desk</a></li>\n          <li><a routerLinkActive=\"active\" [routerLink]=\"['/membresias/office']\" >Office</a></li>\n        </ul>\n      </div>\n      <div class=\"button-wrap has-submenu\" >\n        <a class=\"color-white\"  routerLinkActive=\"active\" [routerLink]=\"['/comunidad']\">About</a>\n        <ul>\n          <li><a [ngClass]=\"{'active': subsection == 'eventos'}\" routerLinkActive=\"active\" [routerLink]=\"['/eventos']\">Eventos</a></li>\n          <!-- <li><a [ngClass]=\"{'active': section == 'noticias'}\" href=\"noticias\">Noticias</a></li> -->\n          <li><a href=\"https://www.youtube.com/channel/UCD5gut_qkl6IlkIPpr027wg\" target=\"_blank\">Videos</a></li>\n          <li><a href=\"https://docs.google.com/document/d/1jU5pCH0Res3bihcw-72s2vX6hgnqgLoIh_Z4ArOZv00/edit\" target=\"_blank\">Beneficios</a></li>\n        </ul>\n      </div>\n      <div class=\"button-wrap has-submenu\" >\n        <a class=\"color-white\" href=\"sedes\">Sedes</a>\n        <ul>\n          <li><a class=\"color-white\" href=\"sedes/el-salvador\">Program</a></li>\n          <li><a class=\"color-white\" href=\"sedes/soho\">A3 Soho</a></li>\n        </ul>\n      </div>\n      <div class=\"button-wrap has-submenu\" >\n        <a class=\"color-white\" href=\"sedes\">Nosotros</a>\n        <ul>\n          <li><a class=\"color-white\">A3</a></li>\n          <li><a class=\"color-white\" href=\"google-for-entrepreneurs\">Google for Entrepreneurs</a></li>\n          <!-- <li><a [ngClass]=\"{'active': section == 'porque-somos-el-hub'}\" href=\"porque-somos-el-hub\">Porque somos el HUB</a></li> -->\n          <!-- <li><a [ngClass]=\"{'active': section == 'faqs'}\" href=\"faqs\">FAQ</a>/</li> -->\n          <li><a class=\"color-white\" href=\"hace-tu-evento\">Hacé tu evento en A3</a></li>\n          <li><a class=\"color-white\" routerLinkActive=\"active\" [routerLink]=\"['/contacto']\">Contacto</a></li>\n        </ul>\n      </div>\n      <div class=\"button-wrap\">\n        <a class=\"color-white\" href=\"#\"><span>Miembros</span><span>Próximamente</span></a>\n      </div>\n    </nav>\n    <div class=\"toggle-nav\" (click)=\"activeNav = !activeNav\" [ngClass]=\"{'active': activeNav}\" type=\"button\" appMobileSidebarToggler>\n      <span></span>\n      <span></span>\n      <span></span>\n    </div>\n  </div>\n</header>\n"
 
 /***/ }),
 
