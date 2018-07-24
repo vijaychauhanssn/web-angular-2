@@ -12,8 +12,10 @@ import { HttpClient } from '@angular/common/http';
   templateUrl: './contacto.component.html'
 })
 export class ContactoComponent implements OnInit  {
-   instagram: string;
-    results = '';
+  instagram: any;
+  results = '';
+  data:string;
+  images:string;
 
    
 constructor ( private http: HttpClient ) {}
@@ -24,9 +26,10 @@ onSubmit(f: NgForm) {
   }
   
 ngOnInit(): void {
-    this.http.get('https://api.instagram.com/v1/users/self/media/recent/?access_token=1555426027.1677ed0.2a7ad672ca3d45f38782bfc0ca9a8851', {jsonpCallbackParam: 'callbackParam', jsonp: 'jsonp'}).subscribe(data => {
+    this.http.get('https://api.instagram.com/v1/users/self/media/recent/?access_token=1555426027.1677ed0.2a7ad672ca3d45f38782bfc0ca9a8851', {}).subscribe(data => {
     console.log(data);
-    var post = data.data[0];
+    var post = data[0];
+   //var post = data.data[0];
       var options = {weekday: 'long', month: 'long', day: 'numeric' };
       console.log(post);
       this.instagram = {

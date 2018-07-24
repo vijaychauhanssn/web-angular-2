@@ -4,7 +4,7 @@ import { Eventos } from '../../model/eventos';
 import { Youtube } from '../../model/youtube';
 import { Data }    from '../../models/data';
 import { Injectable } from '@angular/core';
-import { Http, Response } from '@angular/http';
+import { Http, Response} from '@angular/http';
 import 'rxjs/add/operator/map';
 import { HttpClient } from '@angular/common/http';
 
@@ -14,13 +14,9 @@ import { HttpClient } from '@angular/common/http';
 templateUrl: 'home.component.html'
 })
 export class HomeComponent implements OnInit {
-
- instagram: [{
- link:any,
- date:string,
- text:any,
- image:string
- }]
+ data:string;
+ results = ''; 
+ instagram: any;
 
 urlEncode = function(l){
     if(l)
@@ -28,12 +24,13 @@ urlEncode = function(l){
     else
       return '';
   }
-  constructor(private http: Http) { }
+  constructor(private http: HttpClient) { }
 
- ngOnInit(): void {
-    this.http.get('https://api.instagram.com/v1/users/self/media/recent/?access_token=1555426027.1677ed0.2a7ad672ca3d45f38782bfc0ca9a8851', {jsonpCallbackParam: 'callbackParam', jsonp: 'jsonp'}).subscribe(data => {
+ngOnInit(): void {
+    this.http.get('https://api.instagram.com/v1/users/self/media/recent/?access_token=1555426027.1677ed0.2a7ad672ca3d45f38782bfc0ca9a8851', {}).subscribe(data => {
     console.log(data);
-    var post = data.data[0];
+    var post = data[0];
+    //var post = data.data[0];
       var options = {weekday: 'long', month: 'long', day: 'numeric' };
       console.log(post);
       this.instagram = {
